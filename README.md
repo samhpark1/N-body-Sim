@@ -21,7 +21,7 @@ g++  main.cpp -I<path_to_SFML> -L<path_to_SFML> -lsfml-graphics -lsfml-window -l
 ```
 * number of particles: depends on computational power of computer, recommend starting at 5000
 * time value scalar: scalar to speed/slow simulation
-  * 1:default
+  * default: 1
   * suggested max: 5
   * (NOTE: increasing excessively will result in inaccuracies)
     
