@@ -11,11 +11,11 @@ SFML is required to run this program
   sudo apt update
   sudo apt install libsfml-dev
   ```
-##Compilation
+## Compilation
 ```console
 g++  main.cpp -I<path_to_SFML> -L<path_to_SFML> -lsfml-graphics -lsfml-window -lsfml-system
 ```
-##Execution
+## Execution
 ```console
 ./a.out <number of particles> <time value scalar>
 ```
